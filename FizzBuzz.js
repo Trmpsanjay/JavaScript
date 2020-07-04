@@ -9,7 +9,7 @@ function fizbuzz(num){
      else
         output.push(num);
 }
-for(i=0;i<=100;i++){
+for(i=1;i<=100;i++){
     fizbuzz(i)
 }
 console.log(output);
